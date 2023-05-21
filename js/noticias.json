@@ -1,0 +1,22 @@
+{
+  "noticias": [
+    {
+      "titulo": "Álvaro Bautista llega a Assen con la intención de frenar a sus rivales",
+      "subtitulo": "El vigente campeón del mundo de Superbike cuenta con una ventaja de 37 puntos respecto a su inmediato perseguidor, el turco Toprak Razgatlioglu",
+      "modalidad": "SUPERBIKE",
+      "imagen": "./img/NOTICIA1.jpeg"
+    },
+    {
+      "titulo": "Jorge Prado, segundo en Suiza, se afianza como líder del Mundial de MXGP",
+      "subtitulo": "",
+      "modalidad": "MOTOCROSS",
+      "imagen": "./img/NOTICIA2.jpeg"
+    },
+    {
+      "titulo": "Pamplona, propuesta para cerrar el mundial de trial 2024",
+      "subtitulo": "",
+      "modalidad": "TRIAL",
+      "imagen": "./img/NOTICIA3.jpeg"
+    }
+  ]
+}

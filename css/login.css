@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-image: url('../img/motoscarretera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 215, 122, 0.7);
+}
+#form{
+    width: 50%;
+    margin: 100px auto;
+    padding: 1rem;
+}
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.inicio{
+    text-decoration: none;
+    color: black;
+}
+.inicio:hover{
+
+    color: black;
+}
+.frase{
+    font-size: 1.2rem;
+}
+.col-form-label{
+    font-size: 1.3rem;
+}
+.btn{
+    font-size: 1.4rem;
+}
+.registrar{
+    color: black;
+}
+.registrar:hover{
+    color: black;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+p, a{
+    font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.tituloSeccion{
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+#tituloLogo{
+    margin-left: 10px;
+}
+#tituloLogo b{
+    font-size: 2.5rem;
+}
+#tituloLogo p{
+    font-size: 1.3rem;
+}
+#menuNavegacion a{
+    font-size: 1.7rem;
+    padding-right: 2.5rem;
+    font-weight: 300;
+}
+#menuNavegacion a:hover{
+    font-size: 2rem;
+    color: red;
+}
+
+/*HERO*/
+.hero {
+    background-image: url('../img/motoscarretera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80vh;
+}
+#textoHero{
+    border-radius: 20px;
+    background-color: rgba(236, 215, 122, 0.7);
+}
+#textoHero p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#registrar{
+    cursor: pointer;
+    animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*RUTAS*/
+.tarjetas .card{
+    padding: 20px;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 0.5);
+}
+.tarjetas img{
+    height: 230px;
+}
+.tarjetas h4{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.bi-star-fill{
+    color: yellow;
+}
+
+/*CAROUSEL*/
+#eventos img{
+    height: 90vh;
+}
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ffc107;
+    box-sizing: inherit;
+    background-clip: inherit;
+}
+.carousel-indicators{
+    margin-bottom: -2rem;
+}
+.carousel-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 20%;
+    background-color: #ffc107;
+}
+.carousel-control-prev{
+    left: -10%;
+}
+.carousel-control-next{
+    right: -10%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 60px;
+}
+
+/*NOTICIAS*/
+#noticias{
+    width: 95%;
+    margin: 0 auto;
+    text-align: justify;
+}
+#noticias .titulo{
+    border-bottom: 2px solid red;
+}
+#noticias h5{
+    color: red;
+    font-weight: 700;
+}
+#noticias h3{
+    font-weight: 700;
+}
+.noticiaPrincipal img{
+    width: 100%;
+}
+.noticiasSecundarias img{
+    width: 100%;
+}
+.noticiasSecundarias div{
+    margin-top: .75rem;
+}
+#noticia1 h3{
+    margin-left: 15px;
+}
+#noticia2 h3{
+    margin-right: 15px;
+}
+#noticia2{
+    flex-direction: row-reverse;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #ffc107;
+    box-shadow: 0 -5px 8px rgb(0 0 0 / 0.5);
+}
+footer p, footer label{
+    font-weight: 300;
+}
+.iconos{
+    font-size: 1.7rem;
+}
+.iconos i{
+    padding-right: 1rem;
+}
+.botonTransparente{
+    width: 100%;
+}
